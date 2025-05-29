@@ -46,6 +46,7 @@ exports.handler = async function (event){
 
     try{
         const url = await s3.getSignedUrlPromise('getObject',params)
+        console.log(url)
         return {
             statusCode:200,
             body:JSON.stringify({url})
