@@ -31,6 +31,7 @@ function App() {
 
   console.log({passcode,filename})
  
+  try{
   const url = await axios.post(
   "https://sandeshworkhours.netlify.app/.netlify/functions/getPayslip",
   {
@@ -43,6 +44,10 @@ function App() {
     }
   }
 );
+  }catch(err){
+    console.log(err)
+  }
+
   
   console.log(url)
    
