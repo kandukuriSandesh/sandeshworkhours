@@ -33,6 +33,8 @@ exports.handler = async function (event){
             body:JSON.stringify({url})
         }
     }catch(err){
+        console.log(err)
+
         return {
             statusCode:500,
             body:JSON.stringify({message:'Error generating URL from AWS'})
