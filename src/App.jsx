@@ -30,9 +30,9 @@ function App() {
  const getPaySlipFileURL = async () => {
 
   console.log({passcode,filename})
- 
+  let url;
   try{
-  const url = await axios.post(
+   url = await axios.post(
   "https://sandeshworkhours.netlify.app/.netlify/functions/getPayslip",
   {
     passcode: passcode,

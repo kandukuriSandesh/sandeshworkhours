@@ -49,6 +49,9 @@ exports.handler = async function (event){
         console.log(url)
         return {
             statusCode:200,
+             headers: {
+        "Access-Control-Allow-Origin": "http://localhost:5174",
+      },
             body:JSON.stringify({url})
         }
     }catch(err){
