@@ -35,7 +35,7 @@ function App() {
   "https://sandeshworkhours.netlify.app/.netlify/functions/getPayslip",
   {
     passcode: passcode,
-    key: filename
+    filename: filename
   },
   {
     headers: {
