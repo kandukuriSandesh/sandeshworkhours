@@ -21,8 +21,8 @@ exports.handler = async function (event){
     }
 
     const params = {
-        bucket:BUCKET_NAME,
-        key:filename,
+        Bucket:BUCKET_NAME,
+        Key:filename,
         Expires:300
     }
 
