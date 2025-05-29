@@ -11,11 +11,29 @@ const s3 = new AWS.S3({
 })
 
 exports.handler = async function (event){
-    const {passcode,filename} = JSON.parse(event.body);
 
+    if(event.httpMethod === "OPTIONS"){
+        return{
+            statusCode:200,
+            headers:{
+                "Access-Control-Allow-Origin": "*", // or your domain instead of "*"
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "POST, OPTIONS",
+            },
+            body:"OK"
+        }
+    }
+
+    console.log(event.body)
+
+    const {passcode,filename} = JSON.parse(event.body);
+    
     if(passcode !== process.env.PAYSLIP_PASS){
         return {
             statusCode:401,
+             headers: {
+                "Access-Control-Allow-Origin": "*",
+                },
             body:JSON.stringify({message:"Invalid Passcode"})
         }
     }

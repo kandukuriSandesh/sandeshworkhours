@@ -4,3 +4,12 @@ export const points = [
     "3. Blue rows represent bank holidays and Easter holiday shifts worked.",
     "4. Click to download the payroll cut-off details from Compass Group."
 ];
+
+
+export const filenames = [
+    "31st January payslip.pdf",
+    "28th February payslip.pdf",
+    "1st April payslip.pdf",
+    "1st May payslip.pdf",
+    "30th May payslip.pdf",
+]
