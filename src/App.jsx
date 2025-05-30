@@ -19,6 +19,7 @@ function App() {
  const [filename,setFilename] = useState('');
 
  const naviagateWithFilename = (filename,toggleModel) => {
+  setPasscode()
    if(!filename){
     toast("Invalid Filename")
   }
@@ -29,7 +30,6 @@ function App() {
 
  const getPaySlipFileURL = async () => {
 
-  console.log({passcode,filename})
   let url;
   try{
    url = await axios.post(
@@ -46,11 +46,19 @@ function App() {
 );
   }catch(err){
     console.log(err)
+    if(err.response.status == 401){
+      toast("Invalid Code")
+    }else if(err.response.status == 500){
+      toast("Issue with AWS,please try later")
+    }
   }
 
-  
-  console.log(url)
-   
+  if(url.status == "200"){
+    toast("Downloaded Successfully")
+    window.open(url.data.url,"_blank")
+  }
+  setPasscode()
+  toggleModel3()
  }
 
   return (
