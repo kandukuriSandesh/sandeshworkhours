@@ -28,10 +28,12 @@ function DatePickerSection() {
       return;
     }
     let hoursRange = workShifts.filter((infoObject) => {
+      let adjustedEndDate = new Date(endDate);
+      adjustedEndDate.setHours(23, 59, 59, 999);
       return !checked
-        ? new Date(infoObject.date) > startDate && new Date(infoObject.date) <= endDate
+        ? new Date(infoObject.date) > startDate && new Date(infoObject.date) <= adjustedEndDate
         : (new Date(infoObject.date) > startDate &&
-            new Date(infoObject.date) <= endDate &&
+            new Date(infoObject.date) <= adjustedEndDate &&
             infoObject.holiday) ||
             infoObject.special_day;
     });
@@ -62,6 +64,7 @@ function DatePickerSection() {
                   setTableHoursData(null)
                   setStartDate(date)
                 }}
+                isClearable
                 maxDate={new Date()}
                 dateFormat={'dd/MM/yyyy'}
                 className="border border-gray-800 rounded-md p-2"
@@ -80,6 +83,7 @@ function DatePickerSection() {
                   setTableHoursData(null)
                   setEndDate(date)
                 }}
+                isClearable
                 dateFormat={'dd/MM/yyyy'}
                 maxDate={new Date()}
                 className="border border-gray-800 rounded-md p-2"

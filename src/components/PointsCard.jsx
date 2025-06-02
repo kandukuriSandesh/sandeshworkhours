@@ -15,6 +15,17 @@ export default function PointsCard({
   passcode,
   setPasscode,
 }) {
+
+ const render5Jsx = (point) => {
+  console.log('Hio')
+  return (
+    <h5>
+      6. <a target='_blank' className='underline text-blue-500'  href='./mail comunication.pdf'>Click Here</a> {point}
+    </h5>
+  );
+};
+
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
       <div
@@ -54,8 +65,9 @@ export default function PointsCard({
             </div>
           ) : (
             <div className=" text-xl text-left float-left space-y-2 text-gray-700">
-              {points.map((point, idx) => {
-                return idx == 0 ? (
+             {/*  {points.map((point, idx) => {
+              console.log(idx)
+                return idx == 0 ? idx == 5? render5Jsx(point) : (
                   <h5 key={idx}>
                     1.
                     {
@@ -73,7 +85,30 @@ export default function PointsCard({
                 ) : (
                   <h5 key={idx}>{point}</h5>
                 );
-              })}
+              })} */}
+              {points.map((point, idx) => {
+  if (idx === 5) {
+    return render5Jsx(point, idx);
+  } else if (idx === 0) {
+    return (
+      <h5 key={idx}>
+        1.{" "}
+        <a
+          href="/2025 payroll.pdf"
+          target="_blank"
+          className="underline text-blue-500"
+          rel="noopener noreferrer"
+        >
+          Click here
+        </a>{" "}
+        {point}
+      </h5>
+    );
+  } else {
+    return <h5 key={idx}>{point}</h5>;
+  }
+})}
+
             </div>
           )
         ) : (

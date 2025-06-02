@@ -4,11 +4,12 @@ export const points = [
   '3. Total Hours are calculated after deducting break if applicable',
   '4. Green rows indicate holidays applied on non-working days to receive 5 hours 30 minutes pay, as per management guidance.',
   '5. Blue rows represent bank holidays and Easter holiday shifts worked.',
+  'to mail view mail communication.'
 ];
 
 export const filenames = [
   '31st January payslip.pdf',
-  '28th February payslip.pdf',
+  '28th Febraury payslip.pdf',
   '1st April payslip.pdf',
   '1st May payslip.pdf',
   '30th May payslip.pdf',

@@ -348,9 +348,9 @@ export const workShifts = [
 
 export const paidMonthlyHours = {
  '31st January payslip.pdf':113.5,//162.68
-  '28th February payslip.pdf':179.61,// 172.5
+  '28th Febraury payslip.pdf':179.61,// 172.5
   '1st April payslip.pdf' : 192.22,// 218.92
-  '1st May payslip.pdf' : 211.5,// 211.5
+  '1st May payslip.pdf' : 168.73,// 211.5
   '30th May payslip.pdf' : 202.5, // 202.5
 };
 
