@@ -103,7 +103,7 @@ function App() {
 
       {model3Status && (
         <PointsCard
-          title={'Enter 6 digit Numeric Passcode to download'}
+          title={'Enter a 6 digit Numeric Passcode to download'}
           isPasscode={true}
           getPaySlipFileURL={getPaySlipFileURL}
           toggleModel={toggleModel3}
