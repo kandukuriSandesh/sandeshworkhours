@@ -54,13 +54,6 @@ function DatePickerSection() {
   return (
     <div>
       <div className="bg-white rounded-2xl shadow-lg   p-8 ">
-        <button
-          onClick={() => {
-            throw new Error('Test Sentry Error');
-          }}
-        >
-          Trigger Error
-        </button>
         <h1 className="">Enter Date Range to get hours information</h1>
         <div>
           <div className="flex flex-col md:flex-row items-center justify-around p-6 gap-10">
