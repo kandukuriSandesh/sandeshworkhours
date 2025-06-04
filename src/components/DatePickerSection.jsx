@@ -54,6 +54,13 @@ function DatePickerSection() {
   return (
     <div>
       <div className="bg-white rounded-2xl shadow-lg   p-8 ">
+        <button
+          onClick={() => {
+            throw new Error('Test Sentry Error');
+          }}
+        >
+          Trigger Error
+        </button>
         <h1 className="">Enter Date Range to get hours information</h1>
         <div>
           <div className="flex flex-col md:flex-row items-center justify-around p-6 gap-10">
@@ -61,8 +68,8 @@ function DatePickerSection() {
               <DatePicker
                 selected={startDate}
                 onChange={(date) => {
-                  setTableHoursData(null)
-                  setStartDate(date)
+                  setTableHoursData(null);
+                  setStartDate(date);
                 }}
                 isClearable
                 maxDate={new Date()}
@@ -80,8 +87,8 @@ function DatePickerSection() {
               <DatePicker
                 selected={endDate}
                 onChange={(date) => {
-                  setTableHoursData(null)
-                  setEndDate(date)
+                  setTableHoursData(null);
+                  setEndDate(date);
                 }}
                 isClearable
                 dateFormat={'dd/MM/yyyy'}
@@ -121,8 +128,8 @@ function DatePickerSection() {
           <div className="overflow-x-auto mt-4">
             <div className=" border border-dashed border-gray-600 p-4 rounded-full">
               <h1>
-                A total of {Number(hoursWorked).toFixed(2)} hours worked during specified period excluding start
-                date.{' '}
+                A total of {Number(hoursWorked).toFixed(2)} hours worked during specified period
+                excluding start date.{' '}
               </h1>
             </div>
 
@@ -168,7 +175,7 @@ function DatePickerSection() {
                 {tableHoursData.map((dataObject, idx) => (
                   <tr
                     key={`${dataObject.date}-${idx}`}
-                    className={`${dataObject.red ? " bg-red-300 hover:bg-red-500  ":dataObject.special_day ? 'bg-blue-300 hover:bg-blue-400 ' : dataObject.holiday ? 'bg-green-300 hover:bg-green-500 ' : 'even:bg-gray-50 hover:bg-gray-100'}  transition-colors`}
+                    className={`${dataObject.red ? ' bg-red-300 hover:bg-red-500  ' : dataObject.special_day ? 'bg-blue-300 hover:bg-blue-400 ' : dataObject.holiday ? 'bg-green-300 hover:bg-green-500 ' : 'even:bg-gray-50 hover:bg-gray-100'}  transition-colors`}
                   >
                     <td className="px-6 py-4 whitespace-nowrap text-gray-800">{dataObject.date}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-gray-800">
