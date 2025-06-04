@@ -4,7 +4,8 @@ export const points = [
   '3. Total Hours are calculated after deducting break if applicable',
   '4. Green rows indicate holidays applied on non-working days to receive 5 hours 30 minutes pay, as per management guidance.',
   '5. Blue rows represent bank holidays and Easter holiday shifts worked.',
-  'to mail view mail communication.'
+  'to mail view mail communication.',
+  "7. Red rows indicate the hours not visible in ourtime portal and haven't been paid in payslip."
 ];
 
 export const filenames = [
