@@ -168,7 +168,7 @@ function DatePickerSection() {
                 {tableHoursData.map((dataObject, idx) => (
                   <tr
                     key={`${dataObject.date}-${idx}`}
-                    className={`${dataObject.red ? ' bg-red-300 hover:bg-red-500  ' : dataObject.special_day ? 'bg-blue-300 hover:bg-blue-400 ' : dataObject.holiday ? 'bg-green-300 hover:bg-green-500 ' : 'even:bg-gray-50 hover:bg-gray-100'}  transition-colors`}
+                    className={`${dataObject.extra ? ' bg-pink-300 hover:bg-pink-500' : dataObject.red ? ' bg-red-300 hover:bg-red-500  ' : dataObject.special_day ? 'bg-blue-300 hover:bg-blue-400 ' : dataObject.holiday ? 'bg-green-300 hover:bg-green-500 ' : 'even:bg-gray-50 hover:bg-gray-100'}  transition-colors`}
                   >
                     <td className="px-6 py-4 whitespace-nowrap text-gray-800">{dataObject.date}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-gray-800">
