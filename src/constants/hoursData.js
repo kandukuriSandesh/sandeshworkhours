@@ -291,8 +291,8 @@ export const workShifts = [
     date: '2025-05-02',
     start: '08:00',
     end: '15:00',
-    total_hours: 5.5,
-    break: null,
+    total_hours: 6.5,
+    break: '30 minutes',
     red: true,
   },
   {
