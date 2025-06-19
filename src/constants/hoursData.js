@@ -374,6 +374,44 @@ export const workShifts = [
   },
   { date: '2025-05-27', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
   { date: '2025-05-27', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+
+  { date: '2025-05-30', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-05-31', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-05-31', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-06-01', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-02', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-03', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-03', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-06-05', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-06', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-07', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-08', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-09', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-10', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-10', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-06-11', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-06-12', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-06-13', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+
+  { date: '2025-06-14', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-14', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-15', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-16', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-17', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-17', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-06-20', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-21', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-21', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-22', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-24', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-06-28', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-28', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-29', start: '17:00', end: '22:30', total_hours: 5.5 },
 ];
 
 export const paidMonthlyHours = {
@@ -384,56 +422,49 @@ export const paidMonthlyHours = {
   '30th May payslip.pdf': 202.5, // 202.5
 };
 
-const workShiftsApril = [
-  { date: '2025-04-01', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-01', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-02', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-03', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-05', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-06', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-06', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-07', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-08', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-08', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  {
-    date: '2025-04-10',
-    start: '17:00',
-    end: '22:30',
-    total_hours: 5.5,
-    break: null,
-    holiday: true,
-  },
-  {
-    date: '2025-04-11',
-    start: '17:00',
-    end: '22:30',
-    total_hours: 5.5,
-    break: null,
-    holiday: true,
-  },
-  { date: '2025-04-12', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-13', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-13', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-14', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-15', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-15', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-17', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-19', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-19', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-20', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-20', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-21', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-22', start: '10:00', end: '15:00', total_hours: 5.0, break: null },
-  { date: '2025-04-22', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-23', start: '10:00', end: '15:00', total_hours: 5.0, break: null },
-  { date: '2025-04-23', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-24', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-26', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-27', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
-  { date: '2025-04-27', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-28', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-28', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-29', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
-  { date: '2025-04-29', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-04-30', start: '09:30', end: '15:00', total_hours: 5.5, break: null },
+const workScheduleMay = [
+  // May
+  { date: '2025-05-30', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-05-31', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-05-31', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  // June Week 1
+  { date: '2025-06-01', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-02', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-03', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-03', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  // June Week 2
+  { date: '2025-06-05', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-06', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-07', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-08', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-09', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-10', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-10', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  // Holidays
+  { date: '2025-06-11', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-06-12', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+  { date: '2025-06-13', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
+
+  // June Week 3
+  { date: '2025-06-14', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-14', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-15', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-16', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-17', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-06-17', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  // June Week 4
+  { date: '2025-06-20', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-21', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-21', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-22', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-24', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  // June Week 5
+  { date: '2025-06-28', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-06-28', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-29', start: '17:00', end: '22:30', total_hours: 5.5 },
 ];
