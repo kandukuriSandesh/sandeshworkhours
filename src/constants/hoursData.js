@@ -279,13 +279,21 @@ export const workShifts = [
   { date: '2025-04-29', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
   { date: '2025-04-29', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-04-30', start: '09:30', end: '15:00', total_hours: 5.5, break: null },
- {
+  {
     date: '2025-05-01',
     start: '17:00',
     end: '22:30',
     total_hours: 5.5,
     break: null,
-    red:true
+    red: true,
+  },
+  {
+    date: '2025-05-02',
+    start: '08:00',
+    end: '15:00',
+    total_hours: 5.5,
+    break: null,
+    red: true,
   },
   {
     date: '2025-05-02',
@@ -320,7 +328,7 @@ export const workShifts = [
     date: '2025-05-09',
     start: '08:00',
     end: '15:00',
-    total_hours:6.5,
+    total_hours: 6.5,
     break: '30 minutes',
     red: true,
   },
@@ -333,7 +341,14 @@ export const workShifts = [
     holiday: true,
   },
   { date: '2025-05-10', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-05-11', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes',red:true },
+  {
+    date: '2025-05-11',
+    start: '06:30',
+    end: '15:00',
+    total_hours: 8.0,
+    break: '30 minutes',
+    red: true,
+  },
 
   { date: '2025-05-11', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-05-12', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
@@ -361,14 +376,12 @@ export const workShifts = [
   { date: '2025-05-27', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
 ];
 
-
-
 export const paidMonthlyHours = {
- '31st January payslip.pdf':113.5,//162.68
-  '28th Febraury payslip.pdf':179.61,// 172.5
-  '1st April payslip.pdf' : 192.22,// 218.92
-  '1st May payslip.pdf' : 168.73,// 211.5
-  '30th May payslip.pdf' : 202.5, // 202.5
+  '31st January payslip.pdf': 113.5, //162.68
+  '28th Febraury payslip.pdf': 179.61, // 172.5
+  '1st April payslip.pdf': 192.22, // 218.92
+  '1st May payslip.pdf': 168.73, // 211.5
+  '30th May payslip.pdf': 202.5, // 202.5
 };
 
 const workShiftsApril = [
@@ -424,4 +437,3 @@ const workShiftsApril = [
   { date: '2025-04-29', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-04-30', start: '09:30', end: '15:00', total_hours: 5.5, break: null },
 ];
-
