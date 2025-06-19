@@ -69,20 +69,32 @@ function App() {
         <InfoCard toggleModel={toggleModel2} content={'Pay Slips'} payslip={true} />
       </div>
 
-<div className="bg-white rounded-2xl shadow-lg p-8 space-y-4 text-left">
+      <div className="bg-white rounded-2xl shadow-lg p-8 space-y-4 text-left">
+        <h5 className="text-lg font-medium text-gray-700">
+          1. On the Pay Day of 31st January 2025, for the payroll period of 12 December 2024 - 23
+          January 2025, I got paid 113.5 instead of 162.68 hours.
+        </h5>
 
-  <h5 className="text-lg font-medium text-gray-700">1. On the Pay Day of 31st January 2025, for the payroll period of 12 December 2024 - 23 January 2025, I got paid 113.5 instead of 162.68 hours.</h5>
+        <h5 className="text-lg font-medium text-gray-700">
+          2. On the Pay Day of 1st April 2025, for the payroll period of 20 February 2025 - 20 March
+          2025, I got paid 192.22 instead of 218.92 hours.
+        </h5>
 
-  <h5 className="text-lg font-medium text-gray-700">2. On the Pay Day of 1st April 2025, for the payroll period of 20 February 2025 - 20 March 2025, I got paid 192.22 instead of 218.92 hours.</h5>
+        <h5 className="text-lg font-medium text-gray-700">
+          3. On the Pay Day of 1st May 2025, for the payroll period of 20 March 2025 - 16 April
+          2025, I got paid 168.73 instead of 211.5 hours.
+        </h5>
 
-  <h5 className="text-lg font-medium text-gray-700">3. On the Pay Day of 1st May 2025, for the payroll period of 20 March 2025 - 16 April 2025, I got paid 168.73 instead of 211.5 hours.</h5>
+        <h5 className="text-lg font-medium text-gray-700">
+          4. On the Pay Day of 30th May 2025, for the payroll period of 16 April 2025 - 15 May 2025,
+          I got paid 202.5 instead of 229 hours.
+        </h5>
 
-  <h5 className="text-lg font-medium text-gray-700">4. On the Pay Day of 30th May 2025, for the payroll period of 16 April 2025 - 15 May 2025, I got paid 202.5 instead of 222 hours.</h5>
-
-  <h5 className='text-lg font-bold text-red-600' > A total of 49.18 + 26.7 + 42.77 + 19.5 = 138.15 hours is short paid </h5>
-</div>
-
-
+        <h5 className="text-lg font-bold text-red-600">
+          {' '}
+          A total of 49.18 + 26.7 + 42.77 + 26.5 = 145.15 hours is short paid{' '}
+        </h5>
+      </div>
 
       <DatePickerSection />
 
