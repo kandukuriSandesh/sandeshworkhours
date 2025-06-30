@@ -87,12 +87,17 @@ function App() {
 
         <h5 className="text-lg font-medium text-gray-700">
           4. On the Pay Day of 30th May 2025, for the payroll period of 16 April 2025 - 15 May 2025,
-          I got paid 202.5 instead of 229 hours.
+          I got paid 202.5 instead of 234.5 hours.
+        </h5>
+
+        <h5 className="text-lg font-medium text-gray-700">
+          4. On the Pay Day of 1st June 2025, for the payroll period of 15 May 2025 - 19 June 2025,
+          I got paid 69.23 of Basic Pay Hourly Wage and 170.1 of Lieu Hours and 15.6 Holiday Hours .
         </h5>
 
         <h5 className="text-lg font-bold text-red-600">
           {' '}
-          A total of 49.18 + 26.7 + 42.77 + 26.5 = 145.15 hours is short paid{' '}
+          A total of 49.18 + 26.7 + 42.77 + 32 = 150.65 hours is short paid{' '}
         </h5>
       </div>
 
