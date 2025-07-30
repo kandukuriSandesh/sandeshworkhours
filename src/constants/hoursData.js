@@ -15,7 +15,7 @@ export const workShifts = [
     date: '2024-12-24',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -23,7 +23,7 @@ export const workShifts = [
     date: '2024-12-25',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -31,7 +31,7 @@ export const workShifts = [
     date: '2024-12-26',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -42,7 +42,7 @@ export const workShifts = [
     date: '2025-01-01',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -129,7 +129,7 @@ export const workShifts = [
     date: '2025-03-07',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -145,7 +145,7 @@ export const workShifts = [
     date: '2025-03-12',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -153,7 +153,7 @@ export const workShifts = [
     date: '2025-03-13',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -171,7 +171,7 @@ export const workShifts = [
     date: '2025-03-19',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -179,7 +179,7 @@ export const workShifts = [
     date: '2025-03-20',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -201,7 +201,7 @@ export const workShifts = [
     date: '2025-03-27',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -210,7 +210,7 @@ export const workShifts = [
     date: '2025-03-28',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -235,7 +235,7 @@ export const workShifts = [
     date: '2025-04-10',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -243,7 +243,7 @@ export const workShifts = [
     date: '2025-04-11',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -258,14 +258,7 @@ export const workShifts = [
   { date: '2025-04-19', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-04-20', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
   { date: '2025-04-20', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  {
-    date: '2025-04-21',
-    start: '17:00',
-    end: '22:30',
-    total_hours: 5.5,
-    break: null,
-    special_day: 'EASTER_MONDAY',
-  },
+
   { date: '2025-04-22', start: '10:00', end: '15:00', total_hours: 5.0, break: null },
   { date: '2025-04-22', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-04-23', start: '10:00', end: '15:00', total_hours: 5.0, break: null },
@@ -299,28 +292,21 @@ export const workShifts = [
     date: '2025-05-02',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
   { date: '2025-05-03', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-05-04', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
   { date: '2025-05-04', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  {
-    date: '2025-05-05',
-    start: '17:00',
-    end: '22:30',
-    total_hours: 5.5,
-    break: null,
-    special_day: 'EARLY_MAY_BANK_HOLIDAY',
-  },
+
   { date: '2025-05-06', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
   { date: '2025-05-06', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   {
     date: '2025-05-08',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -336,7 +322,7 @@ export const workShifts = [
     date: '2025-05-09',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     break: null,
     holiday: true,
   },
@@ -358,7 +344,7 @@ export const workShifts = [
     date: '2025-05-15',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -374,7 +360,7 @@ export const workShifts = [
     date: '2025-05-21',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -382,7 +368,7 @@ export const workShifts = [
     date: '2025-05-21',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -393,14 +379,7 @@ export const workShifts = [
   { date: '2025-05-24', start: '06:30', end: '15:00', total_hours: 8.0, break: '30 minutes' },
   { date: '2025-05-24', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-05-25', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  {
-    date: '2025-05-26',
-    start: '17:00',
-    end: '22:30',
-    total_hours: 5.5,
-    break: null,
-    special_day: 'SPRING_BANK_HOLIDAY',
-  },
+
   { date: '2025-05-27', start: '07:00', end: '15:00', total_hours: 7.5, break: '30 minutes' },
   { date: '2025-05-27', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
 
@@ -408,7 +387,7 @@ export const workShifts = [
     date: '2025-05-30',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -432,7 +411,7 @@ export const workShifts = [
     date: '2025-06-11',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -440,7 +419,7 @@ export const workShifts = [
     date: '2025-06-12',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -448,7 +427,7 @@ export const workShifts = [
     date: '2025-06-13',
     start: '17:00',
     end: '22:30',
-    total_hours: 5.5,
+    total_hours: 3.9,
     holiday: true,
     extra: true,
   },
@@ -469,6 +448,53 @@ export const workShifts = [
   { date: '2025-06-28', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
   { date: '2025-06-28', start: '17:00', end: '22:30', total_hours: 5.5 },
   { date: '2025-06-29', start: '17:00', end: '22:30', total_hours: 5.5 },
+  { date: '2025-06-30', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+
+  { date: '2025-07-01', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-07-01', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-03', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-05', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-05', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-06', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-07', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+
+  { date: '2025-07-08', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-07-08', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-12', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-12', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-13', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-14', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-15', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-16', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+
+  { date: '2025-07-17', start: '10:00', end: '15:00', total_hours: 5.0 },
+
+  { date: '2025-07-18', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-19', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-19', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-21', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-22', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-23', start: '06:00', end: '15:00', total_hours: 8.5, break: 0.5 },
+
+  { date: '2025-07-24', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-25', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+
+  { date: '2025-07-26', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-26', start: '17:00', end: '22:30', total_hours: 5.5 },
+
+  { date: '2025-07-27', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-28', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+
+  { date: '2025-07-29', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
+  { date: '2025-07-29', start: '17:00', end: '22:30', total_hours: 5.5 },
 ];
 
 export const paidMonthlyHours = {
@@ -477,51 +503,6 @@ export const paidMonthlyHours = {
   '1st April payslip.pdf': 192.22, // 218.92
   '1st May payslip.pdf': 168.73, // 211.5
   '30th May payslip.pdf': 202.5, // 202.5
+  '1st July Payslip.pdf': 254.93,
+  '1st August Payslip.pdf': 199.83,
 };
-
-const workScheduleMay = [
-  // May
-  { date: '2025-05-30', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
-  { date: '2025-05-31', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-05-31', start: '17:00', end: '22:30', total_hours: 5.5 },
-
-  // June Week 1
-  { date: '2025-06-01', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-02', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-03', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-03', start: '17:00', end: '22:30', total_hours: 5.5 },
-
-  // June Week 2
-  { date: '2025-06-05', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-06', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-07', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-08', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-09', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
-  { date: '2025-06-10', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
-  { date: '2025-06-10', start: '17:00', end: '22:30', total_hours: 5.5 },
-
-  // Holidays
-  { date: '2025-06-11', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
-  { date: '2025-06-12', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
-  { date: '2025-06-13', start: '17:00', end: '22:30', total_hours: 5.5, holiday: true },
-
-  // June Week 3
-  { date: '2025-06-14', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-14', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-15', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-16', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
-  { date: '2025-06-17', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
-  { date: '2025-06-17', start: '17:00', end: '22:30', total_hours: 5.5 },
-
-  // June Week 4
-  { date: '2025-06-20', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-21', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-21', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-22', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-24', start: '17:00', end: '22:30', total_hours: 5.5 },
-
-  // June Week 5
-  { date: '2025-06-28', start: '06:30', end: '15:00', total_hours: 8.0, break: 0.5 },
-  { date: '2025-06-28', start: '17:00', end: '22:30', total_hours: 5.5 },
-  { date: '2025-06-29', start: '17:00', end: '22:30', total_hours: 5.5 },
-];

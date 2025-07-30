@@ -72,32 +72,42 @@ function App() {
       <div className="bg-white rounded-2xl shadow-lg p-8 space-y-4 text-left">
         <h5 className="text-lg font-medium text-gray-700">
           1. On the Pay Day of 31st January 2025, for the payroll period of 12 December 2024 - 23
-          January 2025, I got paid 113.5 instead of 162.68 hours.
+          January 2025, I got paid 113.5 instead of 156.28 hours.
+        </h5>
+
+        <h5 className="text-lg font-medium text-gray-700">
+          1. On the Pay Day of 28th Febraury 2025, for the payroll period of 23 January 2025 - 20
+          Febraury 2025, I got paid 179.61 <span className=" text-green-700">Correctly Paid</span>
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
           2. On the Pay Day of 1st April 2025, for the payroll period of 20 February 2025 - 20 March
-          2025, I got paid 192.22 instead of 218.92 hours.
+          2025, I got paid 192.22 instead of 210.92 hours.
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
           3. On the Pay Day of 1st May 2025, for the payroll period of 20 March 2025 - 16 April
-          2025, I got paid 168.73 instead of 211.5 hours.
+          2025, I got paid 168.73 instead of 192.1 hours.
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
           4. On the Pay Day of 30th May 2025, for the payroll period of 16 April 2025 - 15 May 2025,
-          I got paid 202.5 instead of 234.5 hours.
+          I got paid 202.5 instead of 217.1 hours.
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
-          4. On the Pay Day of 1st June 2025, for the payroll period of 15 May 2025 - 19 June 2025,
-          I got paid 69.23 of Basic Pay Hourly Wage and 170.1 of Lieu Hours and 15.6 Holiday Hours .
+          4. On the Pay Day of 1st July 2025, for the payroll period of 15 May 2025 - 19 June 2025,
+          I got paid 254.93 <span className=" text-green-700">Correctly Paid</span>
+        </h5>
+
+        <h5 className="text-lg font-medium text-gray-700">
+          4. On the Pay Day of 1st August 2025, for the payroll period of 19 June 2025 - 24 July
+          2025, I got paid 199.83 instead of 219 hours
         </h5>
 
         <h5 className="text-lg font-bold text-red-600">
           {' '}
-          A total of 49.18 + 26.7 + 42.77 + 32 = 150.65 hours is short paid{' '}
+          A total of 42.78 + 0 + 18.7 + 23.37 + 14.6 + 0 + 19.17 = 118.62 hours is short paid{' '}
         </h5>
       </div>
 

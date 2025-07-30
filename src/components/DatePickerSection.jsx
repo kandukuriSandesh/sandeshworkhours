@@ -13,6 +13,8 @@ function DatePickerSection() {
   const [tableHoursData, setTableHoursData] = useState();
   const [checked, setChecked] = useState(false);
 
+  const [holidayChecked, setHolidayChecked] = useState(false);
+
   console.log({ startDate, endDate });
 
   const getHoursInformation = () => {
@@ -30,12 +32,24 @@ function DatePickerSection() {
     let hoursRange = workShifts.filter((infoObject) => {
       let adjustedEndDate = new Date(endDate);
       adjustedEndDate.setHours(23, 59, 59, 999);
-      return !checked
-        ? new Date(infoObject.date) > startDate && new Date(infoObject.date) <= adjustedEndDate
-        : (new Date(infoObject.date) > startDate &&
-            new Date(infoObject.date) <= adjustedEndDate &&
-            infoObject.holiday) ||
-            infoObject.special_day;
+
+      if (checked) {
+        return (
+          new Date(infoObject.date) > startDate &&
+          new Date(infoObject.date) <= adjustedEndDate &&
+          infoObject.holiday
+        );
+      }
+
+      if (holidayChecked) {
+        return (
+          new Date(infoObject.date) > startDate &&
+          new Date(infoObject.date) <= adjustedEndDate &&
+          !infoObject.holiday
+        );
+      }
+
+      return new Date(infoObject.date) > startDate && new Date(infoObject.date) <= adjustedEndDate;
     });
 
     if (!hoursRange) {
@@ -49,6 +63,10 @@ function DatePickerSection() {
 
   const toggle = (e) => {
     setChecked(e.target.checked);
+  };
+
+  const toggleHoliday = (e) => {
+    setHolidayChecked(e.target.checked);
   };
 
   return (
@@ -105,16 +123,31 @@ function DatePickerSection() {
               </button>
             </div>
           </div>
-          <div className="flex flex-row justify-center items-center">
-            <input
-              type="checkbox"
-              onChange={toggle}
-              className=" h-4 w-4 text-blue-400"
-              value={checked}
-              name=""
-              id=""
-            />
-            <span className="ml-2">Only holidays and special days</span>
+          <div className="flex flex-row justify-evenly items-center">
+            <div>
+              <input
+                type="checkbox"
+                onChange={toggleHoliday}
+                className=" h-4 w-4 text-blue-400"
+                value={holidayChecked}
+                name=""
+                id=""
+                disabled={checked}
+              />
+              <span className="ml-2">Exclude Holiday</span>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                onChange={toggle}
+                className=" h-4 w-4 text-blue-400"
+                value={checked}
+                name=""
+                id=""
+                disabled={holidayChecked}
+              />
+              <span className="ml-2">Only holidays </span>
+            </div>
           </div>
         </div>
         {tableHoursData && (
