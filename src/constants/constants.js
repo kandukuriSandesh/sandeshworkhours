@@ -6,7 +6,7 @@ export const points = [
   '5. Blue rows represent bank holidays and Easter holiday shifts worked.',
   'to mail view mail communication.',
   "7. Red rows indicate the hours not visible in ourtime portal and haven't been paid in payslip.",
-  '8. Data in the application is upto 30th of June as per schedule and hours worked. ',
+  '8. Data in the application is upto 30th of August as per schedule and hours worked. ',
 ];
 
 export const filenames = [
