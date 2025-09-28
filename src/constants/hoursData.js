@@ -516,14 +516,40 @@ export const workShifts = [
   { date: '2025-08-23', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
   { date: '2025-08-23', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
   { date: '2025-08-24', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-08-26', start: '07:00', end: '15:00', total_hours: 7, break: 0.5 },
-  { date: '2025-08-27', start: '07:00', end: '15:00', total_hours: 7, break: 0.5 },
-  { date: '2025-08-28', start: '07:00', end: '15:00', total_hours: 7, break: 0.5 },
-  { date: '2025-08-29', start: '07:00', end: '15:00', total_hours: 7, break: 0.5 },
+  { date: '2025-08-26', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-08-27', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-08-28', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
+  { date: '2025-08-29', start: '07:00', end: '15:00', total_hours: 7.5, break: 0.5 },
   { date: '2025-08-30', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
   { date: '2025-08-30', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
-  { date: '2025-08-31', start: '10:00', end: '15:00', total_hours: 5, break: null },
-  { date: '2025-08-31', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+
+  { date: '2025-09-01', start: '10:00', end: '15:00', total_hours: 5, break: null },
+  { date: '2025-09-01', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-02', start: '10:00', end: '15:00', total_hours: 5, break: null },
+  { date: '2025-09-03', start: '10:00', end: '15:00', total_hours: 5, break: null },
+  { date: '2025-09-04', start: '10:00', end: '15:00', total_hours: 5, break: null },
+  { date: '2025-09-04', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-05', start: '10:00', end: '15:00', total_hours: 5, break: null },
+  { date: '2025-09-06', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  { date: '2025-09-06', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-07', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-09', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-13', start: '06:30', end: '15:00', total_hours: 8, break: null },
+  { date: '2025-09-13', start: '17:00', end: '22:30', total_hours: 5.5, break: null }, // added shift
+  { date: '2025-09-14', start: '10:00', end: '19:00', total_hours: 8.5, break: 0.5 },
+  //  { date: '2025-09-15', start: '10:00', end: '19:00', total_hours: 8.5, break: 0.5 },
+  { date: '2025-09-16', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  //  { date: '2025-09-17', start: '10:00', end: '19:00', total_hours: 8.5, break: 0.5 },
+  { date: '2025-09-20', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  { date: '2025-09-20', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-21', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+
+  { date: '2025-09-23', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-27', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  { date: '2025-09-27', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-28', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-29', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-09-30', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
 ];
 
 export const paidMonthlyHours = {
@@ -534,4 +560,6 @@ export const paidMonthlyHours = {
   '30th May payslip.pdf': 202.5, // 202.5
   '1st July Payslip.pdf': 254.93,
   '1st August Payslip.pdf': 199.83,
+  '1st September paylsip.pdf': 227.83,
+  '1st October paylsip.pdf': 149.93,
 };

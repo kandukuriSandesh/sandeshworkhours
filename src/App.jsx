@@ -96,18 +96,25 @@ function App() {
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
-          4. On the Pay Day of 1st July 2025, for the payroll period of 15 May 2025 - 19 June 2025,
+          5. On the Pay Day of 1st July 2025, for the payroll period of 15 May 2025 - 19 June 2025,
           I got paid 254.93 <span className=" text-green-700">Correctly Paid</span>
         </h5>
 
         <h5 className="text-lg font-medium text-gray-700">
-          4. On the Pay Day of 1st August 2025, for the payroll period of 19 June 2025 - 24 July
+          6. On the Pay Day of 1st August 2025, for the payroll period of 19 June 2025 - 24 July
           2025, I got paid 199.83 instead of 219 hours
+        </h5>
+
+        <h5 className="text-lg font-medium text-gray-700">
+          7. On the Pay Day of 1st October 2025, for the payroll period of 21 August 2025 - 18
+          September 2025, I got paid 149.93 instead of 162.5 hours
         </h5>
 
         <h5 className="text-lg font-bold text-red-600">
           {' '}
-          A total of 42.78 + 0 + 18.7 + 23.37 + 14.6 + 0 + 19.17 = 118.62 hours is short paid{' '}
+          A total of 42.78 + 0 + 18.7 + 23.37 + 14.6 + 0 + 19.17 = 118.62 hours is short paid .Out
+          of 118.62, 23 hours are left over to be paid and 12.5 hours are short in 1st October
+          payslip, so 23+12.5 = 35.5 hours left to be cleared
         </h5>
       </div>
 
