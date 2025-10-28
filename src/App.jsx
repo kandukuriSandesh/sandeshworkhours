@@ -110,11 +110,17 @@ function App() {
           September 2025, I got paid 149.93 instead of 162.5 hours
         </h5>
 
+        <h5 className="text-lg font-medium text-gray-700">
+          8. On the Pay Day of 31st October 2025, for the payroll period of 18 September 2025 - 23
+          October 2025, I got paid 45.73 instead of 119.5 hours
+        </h5>
+
         <h5 className="text-lg font-bold text-red-600">
           {' '}
           A total of 42.78 + 0 + 18.7 + 23.37 + 14.6 + 0 + 19.17 = 118.62 hours is short paid .Out
           of 118.62, 23 hours are left over to be paid and 12.5 hours are short in 1st October
-          payslip, so 23+12.5 = 35.5 hours left to be cleared
+          payslip,and 73.77 hours short in 1st november payslip, so 23+12.5+73.77 = 109.27 hours
+          left to be cleared
         </h5>
       </div>
 
