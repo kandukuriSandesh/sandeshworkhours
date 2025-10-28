@@ -609,5 +609,5 @@ export const paidMonthlyHours = {
   '1st August Payslip.pdf': 199.83,
   '1st September payslip.pdf': 227.83,
   '1st October payslip.pdf': 149.93,
-  '1st November paylsip.pdf': 45.73,
+  '1st November payslip.pdf': 45.73,
 };
