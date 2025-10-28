@@ -560,6 +560,7 @@ export const paidMonthlyHours = {
   '30th May payslip.pdf': 202.5, // 202.5
   '1st July Payslip.pdf': 254.93,
   '1st August Payslip.pdf': 199.83,
-  '1st September paylsip.pdf': 227.83,
-  '1st October paylsip.pdf': 149.93,
+  '1st September payslip.pdf': 227.83,
+  '1st October payslip.pdf': 149.93,
+  '1st November paylsip.pdf': 45.73,
 };
