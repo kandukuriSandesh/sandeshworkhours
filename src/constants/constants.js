@@ -20,4 +20,5 @@ export const filenames = [
   '1st September payslip.pdf',
   '1st October payslip.pdf',
   '1st November payslip.pdf',
+  '1st December payslip.pdf',
 ];

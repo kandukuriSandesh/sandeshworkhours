@@ -114,6 +114,11 @@ function App() {
           8. On the Pay Day of 31st October 2025, for the payroll period of 18 September 2025 - 23
           October 2025, I got paid 45.73 instead of 119.5 hours
         </h5>
+        <h5 className="text-lg font-medium text-gray-700">
+          9. On the Pay Day of 1st December 2025, for the payroll period of 18 September 2025 - 23
+          October 2025, I got paid 213.1 hours{' '}
+          <span className=" text-green-700">Correctly Paid</span>
+        </h5>
 
         <h5 className="text-lg font-bold text-red-600">
           {' '}
@@ -121,6 +126,9 @@ function App() {
           of 118.62, 23 hours are left over to be paid and 12.5 hours are short in 1st October
           payslip,and 73.77 hours short in 1st november payslip, so 23+12.5+73.77 = 109.27 hours
           left to be cleared
+          <br />
+          From above calculation, 100 hours got cleared on 1st of December, so 9.27 hours are left
+          to be cleared
         </h5>
       </div>
 

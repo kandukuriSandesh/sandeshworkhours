@@ -597,6 +597,136 @@ export const workShifts = [
     holiday: true,
     extra: true,
   },
+
+  {
+    date: '2025-10-28',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+
+  {
+    date: '2025-10-26',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+  {
+    date: '2025-11-01',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+  {
+    date: '2025-11-02',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+  {
+    date: '2025-11-04',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+
+  {
+    date: '2025-11-06',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 5.5,
+    holiday: true,
+    break: null,
+  },
+
+  {
+    date: '2025-11-08',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 5.5,
+    holiday: true,
+    break: null,
+  },
+
+  {
+    date: '2025-11-09',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 5.5,
+    holiday: true,
+    break: null,
+  },
+  {
+    date: '2025-11-11',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 5.5,
+    holiday: true,
+    break: null,
+  },
+  {
+    date: '2025-11-06',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 5.5,
+    holiday: true,
+    break: null,
+  },
+
+  { date: '2025-11-15', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  {
+    date: '2025-11-15',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+
+  { date: '2025-11-16', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  {
+    date: '2025-11-16',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+
+  { date: '2025-11-18', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-11-22', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-11-23', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+  { date: '2025-11-25', start: '17:00', end: '22:30', total_hours: 5.5, break: null },
+
+  { date: '2025-11-29', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  {
+    date: '2025-11-29',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
+
+  { date: '2025-11-30', start: '06:30', end: '15:00', total_hours: 8, break: 0.5 },
+  {
+    date: '2025-11-30',
+    start: '17:00',
+    end: '22:30',
+    total_hours: 3.9,
+    holiday: true,
+    extra: true,
+  },
 ];
 
 export const paidMonthlyHours = {
@@ -610,4 +740,5 @@ export const paidMonthlyHours = {
   '1st September payslip.pdf': 227.83,
   '1st October payslip.pdf': 149.93,
   '1st November payslip.pdf': 45.73,
+  '1st December payslip.pdf': 213.1,
 };
